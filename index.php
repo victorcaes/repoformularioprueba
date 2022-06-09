@@ -22,7 +22,7 @@
                     <div class="card-body">
                         <form method="post" >
                             <input type="text" placeholder="nombre y apellido" name="nombre" required > <br> <br>
-                            <input type="email" placehoder="email" name="email" required >
+                            <input type="email" placeholder="email" name="email" required >
                             <input type="text" placeholder="asunto" name="asunto" required > <br> <br>
                             <textarea name="mensaje" id="" cols="30" rows="10" placeholder="comentarios"></textarea> <br>
                             <br>
