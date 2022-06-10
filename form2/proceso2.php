@@ -7,16 +7,13 @@
 
     $mensaje="nombre: ".$nombre."apellido: ".$apellido." numero: ".$numero."comentarios: ".$comentarios;
 
-    
-
-    
     $email=mail($correo,'segundoform',$mensaje);
 
     if($email){
-        echo "enviado correctamente"
+        echo "enviado correctamente";
         
     }else{
-        echo "no se ha enviado correctamente"
+        echo "no se ha enviado correctamente";
     }
 
 
