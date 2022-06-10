@@ -15,12 +15,12 @@
             Header
         </div>
         <div class="card-body">
-            <form action="">
-                <input type="text" placeholder="nombre">
-                <input type="text" placeholder="apellido">
-                <input type="text" placeholder="numero de telefono">
-                <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
-                <input type="submit" value="Enviar">
+            <form action="proceso2.php" method="post" enctype="multipart/form-data">
+                <input type="text" placeholder="nombre" name="nombre"> <br>
+                <input type="text" placeholder="apellido" name="apellido"> <br>
+                <input type="text" placeholder="numero de telefono" name="numero"> <br>
+                <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea> <br>
+                <input type="submit" value="Enviar" name="enviar">
             </form>
         </div>
         <div class="card-footer text-muted">
