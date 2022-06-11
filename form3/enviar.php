@@ -1,6 +1,6 @@
 <?php
 if($_POST && isset($_FILES['my_file'])) {
-    $recipient_email = 'email@destinatario.com'; //Direccion de correo de quien recibe el mail
+    $recipient_email = 'eidos.caes@gmail.com'; //Direccion de correo de quien recibe el mail
     $subject         = "Asunto del mensaje.";
        
     //Capturo los datos enviados por POST 
